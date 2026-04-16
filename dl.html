@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>資料ダウンロード｜31Contents</title>
+<meta name="description" content="31Contentsがわかる3点セット資料がダウンロードできます。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="header-logo">
+      <div>
+        <span class="header-logo-tag">ユーザーを揺さぶるコンテンツ開発</span>
+        <span class="header-logo-mark">31<span>Contents</span></span>
+      </div>
+    </a>
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li><a href="company.html">会社紹介</a></li>
+        <li><a href="index.html#service">サービス</a></li>
+        <li><a href="index.html#feature">特長</a></li>
+        <li><a href="news.html">お知らせ</a></li>
+      </ul>
+      <div class="header-cta">
+        <a href="dl.html" class="btn btn-outline">まずは資料請求 ↗</a>
+        <a href="contact.html" class="btn btn-pink">無料で相談 ✉</a>
+      </div>
+    </nav>
+    <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="inner">
+      <span class="page-header-label">DOWNLOAD</span>
+      <h1 class="page-header-title">資料ダウンロード</h1>
+      <p class="page-header-desc">31Contentsの会社概要・支援実績・サービスの特長がわかる3点セット資料をダウンロードいただけます。</p>
+      <div class="page-header-cta">
+        <a href="dl.html" class="btn btn-white">まずは資料請求 ↗</a>
+        <a href="contact.html" class="btn btn-pink">無料で相談 ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="form-page">
+    <div class="inner">
+      <div class="form-page-grid">
+
+        <!-- Left -->
+        <div class="form-left">
+          <h2>各種資料ダウンロード</h2>
+          <p>下記フォームに必要事項をご入力のうえ、送信してください。ご入力いただいたメールアドレス宛に資料のダウンロードURLをお送りします。</p>
+
+          <h3>過去の支援実績</h3>
+          <div class="form-left-logos">
+            <span>MARUFUKU</span>
+            <span>わかもと製薬</span>
+            <span>LikeNomad株式会社</span>
+            <span>扶桑社</span>
+          </div>
+
+          <h3>こんな資料がダウンロードできます。</h3>
+          <ul class="form-left-dl-list">
+            <li>31Contentsがわかる3点セット</li>
+          </ul>
+        </div>
+
+        <!-- Right -->
+        <div class="form-right">
+          <form action="https://formspree.io/f/mvzdzykg" method="POST" data-async>
+            <div class="form-group">
+              <label for="dl-email">メールアドレス<span class="required">必須</span></label>
+              <input type="email" name="email" id="dl-email" required>
+            </div>
+            <div class="form-group">
+              <label for="dl-tel">電話番号<span class="required">必須</span></label>
+              <input type="tel" name="tel" id="dl-tel" required>
+            </div>
+            <div class="form-group">
+              <label for="dl-company">会社名<span class="required">必須</span></label>
+              <input type="text" name="company" id="dl-company" required>
+            </div>
+            <div class="form-group">
+              <label for="dl-role">役職<span class="optional">任意</span></label>
+              <input type="text" name="role" id="dl-role">
+            </div>
+            <label class="form-privacy">
+              <input type="checkbox" name="privacy" required>
+              <span><a href="privacy.html" target="_blank">プライバシーポリシー</a>に同意する</span>
+            </label>
+            <button type="submit" class="form-submit">ダウンロードする</button>
+          </form>
+          <div class="form-thanks">
+            <p>ご請求ありがとうございました。</p>
+            <p>ご入力いただいたメールアドレス宛に、資料のダウンロードURLをお送りいたしました。</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <nav class="footer-nav">
+      <a href="company.html">会社紹介</a>
+      <a href="index.html#service">サービス</a>
+      <a href="index.html#feature">特長</a>
+      <a href="news.html">お知らせ</a>
+      <a href="privacy.html">プライバシーポリシー</a>
+    </nav>
+    <div class="footer-logo">
+      <span class="footer-logo-tag">ユーザーを揺さぶるコンテンツ開発</span>
+      <span class="footer-logo-mark">31<span>Contents</span></span>
+    </div>
+    <p class="footer-copy">©31Contents , Inc. All Right Reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

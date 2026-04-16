@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 320" width="260" height="320" fill="none" stroke="#1e2235" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="0" y="0" width="260" height="320" rx="10" fill="#f5f5f5"/>
+  <!-- Hair -->
+  <path d="M90 80 Q85 40 130 35 Q175 40 170 80 Q175 100 165 118 L165 130 L95 130 L95 118 Q85 100 90 80 Z" fill="#1e2235" stroke="none"/>
+  <!-- Face -->
+  <ellipse cx="130" cy="110" rx="36" ry="44" fill="#ffffff" stroke="#1e2235"/>
+  <!-- Eyes -->
+  <line x1="115" y1="110" x2="121" y2="110" stroke-width="2.5"/>
+  <line x1="139" y1="110" x2="145" y2="110" stroke-width="2.5"/>
+  <!-- Smile -->
+  <path d="M120 128 Q130 134 140 128"/>
+  <!-- Neck -->
+  <path d="M122 150 L122 168 L138 168 L138 150"/>
+  <!-- Suit -->
+  <path d="M70 180 Q70 170 90 168 L122 168 L130 190 L138 168 L170 168 Q190 170 190 180 L200 310 L60 310 Z" fill="#1e2235" stroke="#1e2235"/>
+  <!-- Shirt -->
+  <path d="M115 168 L130 190 L145 168 L145 240 L115 240 Z" fill="#ffffff" stroke="#1e2235"/>
+  <!-- Tie -->
+  <path d="M128 175 L132 175 L138 240 L130 250 L122 240 Z" fill="#ff4fa3" stroke="#ff4fa3"/>
+</svg>
