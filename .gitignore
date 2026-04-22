@@ -4,3 +4,18 @@ Thumbs.db
 node_modules/
 .vscode/
 .idea/
+
+# サイトキャプチャ・作業用ファイル
+31com-sitecapture/
+sitecapture/
+*-sitecapture/
+_local/
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
